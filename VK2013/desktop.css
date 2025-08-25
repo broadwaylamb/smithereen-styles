@@ -278,7 +278,7 @@ ul.actualList {
 }
 
 .privatePostLockIcon {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='9' xmlns='http://www.w3.org/2000/svg' fill='%23cfc39f'%3E%3Cpath d='M1 3v1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V3a3.001 3.001 0 0 0-6 0zm4.5 1V3a1.5 1.5 0 0 0-3 0v1h3z' fill-rule='evenodd'/%3E%3C/svg%3E");
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='9' xmlns='http://www.w3.org/2000/svg' fill='%23bac6ce'%3E%3Cpath d='M1 3v1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1V3a3.001 3.001 0 0 0-6 0zm4.5 1V3a1.5 1.5 0 0 0-3 0v1h3z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .accent {
@@ -1446,10 +1446,14 @@ label.pretendLink {
 	border-bottom-color: #f1f1f1;
 }
 
+.mailMessageRow.unread .time {
+	color: #8995a5;
+}
+
 .mailMessageRow.deleted {
-	background: #fefae4;
-	border-bottom: 1px solid #e2daa6;
-	color: #908851;
+	background: #f3fbff;
+	border-bottom: 1px solid #ccdce9;
+	color: #7a8a98;
 }
 
 .mailMessageView .time {
@@ -1474,7 +1478,7 @@ label.pretendLink {
 }
 
 .mailHistory .messageRow > .name.self a {
-	color: #a4ae46;
+	color: #93abc6;
 }
 
 .tooltipOuter .tooltip {
@@ -1564,7 +1568,7 @@ label.largeAccented {
 }
 
 .photoGridUpload {
-	background: lch(95.08% 1.19 251.07);
+	background: #eff1f3;
 	border-bottom: 1px solid #dae1e8;
 	color: #758492;
 }
@@ -1757,7 +1761,7 @@ label.largeAccented {
 }
 
 .postLayerCommentForm.commentsRestricted {
-	color: #7e8d31;
+	color: #7688a1;
 }
 
 .postLayerActions .like .icon {
@@ -1815,18 +1819,18 @@ label.largeAccented {
 }
 
 .notificationOwnReply {
-	background: #f3f1e3;
-	border: 1px solid #e2debe;
+	background: #eef1f5;
+	border: 1px solid #d6dee7;
 }
 
 .notificationOwnReply .tip {
-	background: #f3f1e3;
-	border: 1px solid #e2debe;
+	background: #eef1f5;
+	border: 1px solid #d6dee7;
 }
 
 .notificationOwnReply.wallPostForm, .notificationOwnReply.wallPostForm .tip {
-	background: #eae7d2;
-	border: 1px solid #dad7b7;
+	background: #e3e8ee;
+	border: 1px solid #d3d7db;
 }
 
 .footerNav a:hover {
@@ -1950,8 +1954,8 @@ ol.largeNumbers .number {
 }
 
 .lightTabBar a {
-	background: #f7f8ee;
-	border: 1px solid #cbcbaf;
+	background: #f6f7fa;
+	border: 1px solid #c4cad2;
 	border-bottom: none;
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .03);
 }
