@@ -468,7 +468,7 @@ h2, h4 {
 }
 
 .actionList > li.separator {
-	border-bottom: 1px solid #dae1e8;
+	border-bottom: 1px solid #e7eaed;
 }
 
 .post {
@@ -637,11 +637,12 @@ h2, h4 {
 }
 
 .commentsPreviewWrap .loadPrev {
-	background-color: #dae1e8;
+	background-color: #e9edf1;
+	color: #6a7989;
 }
 
 .commentsPreviewWrap .prevLoader {
-	background-color: #dae1e8;
+	background-color: #e9edf1;
 }
 
 .comment {
@@ -649,7 +650,7 @@ h2, h4 {
 }
 
 .comment > div {
-	border-top: 1px solid #dae1e8;
+	border-top: 1px solid #e7eaed;
 }
 
 .comment .treeIndent {
@@ -1406,7 +1407,7 @@ label.pretendLink {
 }
 
 .friendSelectionBoxContent .list .row {
-	border-bottom: 1px solid #dae1e8;
+	border-bottom: 1px solid #e7eaed;
 }
 
 .friendSelectionBoxContent .list .row:last-child {
@@ -1751,7 +1752,7 @@ label.largeAccented {
 }
 
 .postLayerCommentForm {
-	background-color: #dae1e8;
+	background-color: #e7eaed;
 	border-bottom: none;
 }
 
