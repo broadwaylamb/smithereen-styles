@@ -189,17 +189,28 @@ input[type=checkbox]:hover {
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='14' fill='%23C3CBD4'%3E%3Cpath fill='%23DEE5EB' d='M.5.5h13v13H.5z'/%3E%3Cpath d='M13 1v12H1V1h12m1-1H0v14h14V0z'/%3E%3C/svg%3E") no-repeat 50%;
 }
 
-.dataTable .tableHeader {
-	background: #dee5eb;
-	color: #45688e;
-}
-
-.dataTable td, .dataTable th {
-	border-top: 1px solid #d3dae0;
-}
-
 .dataTable {
-	border-bottom: 1px solid #d3dae0;
+	border: 1px solid #d2d8df;
+}
+
+.dataTable th {
+	background: #e0e6ec;
+	border-bottom: 1px solid #d2d8df;
+	border-left: 1px solid #ecf0f5;
+	border-right: 1px solid #d2d8df;
+	color: #2b587a;
+}
+
+.dataTable th:first-child {
+	border-left: 0;
+}
+
+.dataTable th:last-child {
+	border-right: 0;
+}
+
+.dataTable tr:nth-child(odd) {
+	background: #eff2f4;
 }
 
 .dataTable.noOuterBorders {
@@ -273,7 +284,7 @@ ul.actualList {
 	color: #851614;
 }
 
-.ajaxReplaceWithLoader.ajaxLoading:before {
+.actionList .ajaxReplaceWithLoader.ajaxLoading:before {
 	background-position: 10px;
 }
 
@@ -530,6 +541,10 @@ h2, h4 {
 
 .feedRow:last-child, .wallRow:last-child {
 	border-bottom: none;
+}
+
+.wallShowExtraPosts {
+	background-color: #e9edf1;
 }
 
 #elevator .bg {
@@ -1098,7 +1113,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 	color: #444;
 }
 
-.boxContent .emptyState, .dataTable .emptyState, .layerWithTitle .emptyState, .mediaGridW .emptyState {
+.boxContent .emptyState, .dataTable .emptyState, .emptyState.compact, .layerWithTitle .emptyState, .mediaGridW .emptyState {
 	background: none;
 	border: none;
 }
@@ -1982,6 +1997,10 @@ ol.largeNumbers .number {
 	background: #fff;
 	border-bottom: 1px solid transparent;
 	box-shadow: -10px 0 0 #fff, 10px 0 0 #fff;
+}
+
+.listItemWithDivider + .ajaxEndlessPagination a {
+	border-top: none;
 }
 
 /* blocks */
