@@ -2,7 +2,7 @@
 @name        VK theme for Smithereen documentation
 @author      broadway_lamb
 @namespace   github.com/broadwaylamb
-@version     20251212.18.04
+@version     20251212.19.30
 @homepageURL https://github.com/broadwaylamb/smithereen-styles
 @supportURL  https://github.com/broadwaylamb/smithereen-styles/issues
 @updateURL   https://github.com/broadwaylamb/smithereen-styles/raw/refs/heads/main/VK2013/docs.user.css
@@ -76,4 +76,8 @@ summary {
 details[open] summary {
     background: rgba(222, 229, 235, .5) url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='17' xmlns='http://www.w3.org/2000/svg' fill='rgba(203, 218, 230, 0.7)'%3E%3Cpath d='M17 14V6.929L13.641 3.57v4.95L8.868 3.747 6.747 5.868l4.773 4.773H6.57L9.93 14H17z'/%3E%3C/svg%3E") no-repeat 0;
 }
+}
+
+#content ul ::marker {
+    color: #2b587a;
 }
