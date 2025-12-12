@@ -1,0 +1,57 @@
+@-moz-document url-prefix("https://smithereen.software/docs") {
+#header {
+    background: linear-gradient(180deg, #557497, #6381a5);
+    border-bottom: 1px solid #45688e;
+}
+
+.link, a {
+    color: #2b587a;
+}
+
+#sidebar a:hover {
+    background: #dee5eb;
+}
+
+#sidebar a.current {
+    background: #597da3;
+}
+
+.navbar {
+    background: #e9edf1;
+    color: #607387;
+}
+
+#contentWrap {
+    box-shadow: 0 0 0 1px #f1f1f1, 0 0 0 2px #f3f3f3;
+}
+
+:not(pre) > code {
+    background: #e9edf1;
+    color: #45688E;
+}
+
+#content table {
+    border: 1px solid #d3dae0;
+}
+
+#content table th {
+    background: #DEE5EB;
+    color: #45688E;
+    border-bottom: 1px solid #d3dae0;
+    border-right: 1px solid #d2d8df;
+    border-left: 1px solid #ecf0f5;
+}
+
+#content table tr:nth-child(2n+1) {
+    background: #eff2f4;
+}
+
+summary {
+    background: rgba(222, 229, 235, .5) url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='17' xmlns='http://www.w3.org/2000/svg' fill='rgba(203, 218, 230, 0.7)'%3E%3Cpath d='m18 9-5-5H8.25l3.5 3.5H5v3h6.75L8.25 14H13l5-5z'/%3E%3C/svg%3E") no-repeat 0;
+    color: #45688e;
+}
+
+details[open] summary {
+    background: rgba(222, 229, 235, .5) url("data:image/svg+xml;charset=utf-8,%3Csvg width='20' height='17' xmlns='http://www.w3.org/2000/svg' fill='rgba(203, 218, 230, 0.7)'%3E%3Cpath d='M17 14V6.929L13.641 3.57v4.95L8.868 3.747 6.747 5.868l4.773 4.773H6.57L9.93 14H17z'/%3E%3C/svg%3E") no-repeat 0;
+}
+}
