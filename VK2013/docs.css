@@ -1,7 +1,11 @@
 /* ==UserStyle==
-@name       VK theme for Smithereen documentation
-@version    20251212.18.04
-@namespace  ?
+@name        VK theme for Smithereen documentation
+@author      broadway_lamb
+@version     20251212.18.04
+@homepageURL https://github.com/broadwaylamb/smithereen-styles
+@supportURL  https://github.com/broadwaylamb/smithereen-styles/issues
+@updateURL   https://raw.githubusercontent.com/broadwaylamb/smithereen-styles/refs/heads/main/VK2013/docs.css
+@licence     unlicense
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://smithereen.software/docs") {
