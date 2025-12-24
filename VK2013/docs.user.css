@@ -37,6 +37,12 @@ h2 {
 #sidebar a.current {
     background: #597da3;
 }
+    
+#sidebar label {
+    color: #2B587A;
+    border: solid #DBE3E9;
+    border-width: 1px 0;
+}
 
 .navbar {
     background: #e9edf1;
