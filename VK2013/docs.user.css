@@ -2,7 +2,7 @@
 @name        VK theme for Smithereen documentation
 @author      broadway_lamb
 @namespace   github.com/broadwaylamb
-@version     20251212.19.30
+@version     20251229.11.59
 @homepageURL https://github.com/broadwaylamb/smithereen-styles
 @supportURL  https://github.com/broadwaylamb/smithereen-styles/issues
 @updateURL   https://github.com/broadwaylamb/smithereen-styles/raw/refs/heads/main/VK2013/docs.user.css
@@ -26,7 +26,7 @@ h2 {
     font-size: 13px;
     font-weight: 700;
     line-height: 1.27em;
-    margin: 0;
+    margin: 10px 0;
     padding-bottom: 2px;
 }
 
