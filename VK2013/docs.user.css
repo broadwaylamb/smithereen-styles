@@ -6,10 +6,10 @@
 @homepageURL https://github.com/broadwaylamb/smithereen-styles
 @supportURL  https://github.com/broadwaylamb/smithereen-styles/issues
 @updateURL   https://github.com/broadwaylamb/smithereen-styles/raw/refs/heads/main/VK2013/docs.user.css
-@licence     unlicense
+@license     unlicense
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://smithereen.software/docs") {
+@-moz-document url-prefix("https://smithereen.software/docs"), url-prefix("http://smithereen.software/docs") {
 #header {
     background: linear-gradient(180deg, #557497, #6381a5);
     border-bottom: 1px solid #45688e;
