@@ -1171,6 +1171,10 @@ input[type=time]::-webkit-calendar-picker-indicator {
 	background-color: #f7f7f7;
 }
 
+.leftReminder h3 {
+	color: #8a0000;
+}
+
 .navbar {
 	background: linear-gradient(#faf3c9, #ece5bd);
 	border-color: #cec8a5 #dcd4a4 #d7cf9e #e4ddb4;
