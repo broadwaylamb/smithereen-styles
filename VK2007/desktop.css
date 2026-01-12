@@ -1179,6 +1179,10 @@ input[type=time]::-webkit-calendar-picker-indicator {
 	color: #000;
 }
 
+.navbar a {
+	color: #696029;
+}
+
 .navbar .auxText {
 	color: #cdc48f;
 }
