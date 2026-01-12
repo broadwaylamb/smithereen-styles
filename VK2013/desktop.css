@@ -1364,11 +1364,11 @@ label.pretendLink {
 }
 
 .tokenInput .token {
-	background: #f1f1f1;
+	background: #dce1e7;
 }
 
 .tokenInput .token .remove {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' stroke-linejoin='round'%3E%3Cpath d='M4 2.006 1.997.003.003 1.997 2.006 4 .003 6.003l1.994 1.994L4 5.994l2.003 2.003 1.994-1.994L5.994 4l2.003-2.003L6.003.003 4 2.006z' fill='%23a6b274'/%3E%3C/svg%3E") no-repeat 50%;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg' fill='%23a2aec0' fill-rule='evenodd' stroke-linejoin='round'%3E%3Cpath d='M4 2.006 1.997.003.003 1.997 2.006 4 .003 6.003l1.994 1.994L4 5.994l2.003 2.003 1.994-1.994L5.994 4l2.003-2.003L6.003.003 4 2.006z'/%3E%3C/svg%3E") no-repeat 50%;
 }
 
 .tokenInput .token.selected {
@@ -1719,7 +1719,7 @@ label.largeAccented {
 }
 
 .pvTagDelete {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' stroke-linejoin='round'%3E%3Cpath d='M4 2.006 1.997.003.003 1.997 2.006 4 .003 6.003l1.994 1.994L4 5.994l2.003 2.003 1.994-1.994L5.994 4l2.003-2.003L6.003.003 4 2.006z' fill='%23a6b274'/%3E%3C/svg%3E") 50% no-repeat;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='8' xmlns='http://www.w3.org/2000/svg' fill='%23a2aec0' fill-rule='evenodd' stroke-linejoin='round'%3E%3Cpath d='M4 2.006 1.997.003.003 1.997 2.006 4 .003 6.003l1.994 1.994L4 5.994l2.003 2.003 1.994-1.994L5.994 4l2.003-2.003L6.003.003 4 2.006z'/%3E%3C/svg%3E") 50% no-repeat;
 }
 
 .avaZoom {
