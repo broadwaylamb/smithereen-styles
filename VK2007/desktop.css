@@ -475,10 +475,10 @@ h2, h4 {
 
 .headerBG {
 	background-color: #58789e;
-	background: linear-gradient(180deg, #23446f, #58789e);
+	background: linear-gradient(180deg, #23446f, #58789e 88%, #58789e 93%, #4e6e94);
 	border: 1px solid #a8b9cd;
 	border-top: none;
-	box-shadow: 0 0 0 1px #3d5b87;
+	box-shadow: 0 0 0 1px #3d5b87, 0 1px 2px 1px rgba(0, 0, 0, 25%);
 }
 
 .headerBG .shadow {
