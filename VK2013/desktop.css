@@ -2097,3 +2097,8 @@ ol.largeNumbers .number {
 .columnLayout.leftNarrow #right .profileBlock .blockHeader {
 	padding: 6px 8px;
 }
+
+/* Scale the body a bit because @grishka keeps insisting that the text is not tiny */
+body {
+	zoom: 120%;
+}
