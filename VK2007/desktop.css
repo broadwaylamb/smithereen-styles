@@ -2174,3 +2174,8 @@ ol.largeNumbers .number {
 .leftMenu form a {
 	font-weight: normal;
 }
+
+/* Scale the body a bit because @grishka keeps insisting that the text is not tiny */
+body {
+	zoom: 120%;
+}
