@@ -2,7 +2,7 @@
 @name        VK theme for Smithereen documentation
 @author      broadway_lamb
 @namespace   github.com/broadwaylamb
-@version     20260324.12.46
+@version     20260331.11.49
 @homepageURL https://github.com/broadwaylamb/smithereen-styles
 @supportURL  https://github.com/broadwaylamb/smithereen-styles/issues
 @updateURL   https://github.com/broadwaylamb/smithereen-styles/raw/refs/heads/main/VK2013/docs.user.css
@@ -45,7 +45,6 @@ h2 {
 }
 
 #docsIndexNav a:hover {
-    color: #576581;
     box-shadow: 0 6px 10px rgba(71, 87, 109, 0.25);
 }
 
