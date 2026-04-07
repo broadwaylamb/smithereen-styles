@@ -2,7 +2,7 @@
 @name        VK theme for Smithereen documentation
 @author      broadway_lamb
 @namespace   github.com/broadwaylamb
-@version     20260331.11.49
+@version     20260406.17.34
 @homepageURL https://github.com/broadwaylamb/smithereen-styles
 @supportURL  https://github.com/broadwaylamb/smithereen-styles/issues
 @updateURL   https://github.com/broadwaylamb/smithereen-styles/raw/refs/heads/main/VK2013/docs.user.css
@@ -10,10 +10,12 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://smithereen.software/docs"), url-prefix("http://smithereen.software/docs") {
+#headerWrap {
+    border-bottom: 1px solid #45688e;
+}
 
 #header {
     background: linear-gradient(180deg, #557497, #6381a5);
-    border-bottom: 1px solid #45688e;
 }
 
 .link, a {
@@ -29,6 +31,10 @@ h2 {
     line-height: 1.27em;
     margin: 10px 0;
     padding-bottom: 2px;
+}
+
+h3 {
+    color: #45688e;
 }
 
 #docsIndexHeader {
@@ -108,4 +114,10 @@ details[open] summary {
 
 #content ul ::marker {
     color: #2b587a;
+}
+
+#searchField {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='11' height='11' xmlns='http://www.w3.org/2000/svg' fill='%23BCC5D1' stroke-linejoin='round'%3E%3Cpath d='M3.554 6.032A4.001 4.001 0 0 1 7 0c2.208 0 4 1.792 4 4a4.001 4.001 0 0 1-6.032 3.446L1.5 10.914.086 9.5l3.468-3.468zM7 2a2 2 0 1 1-.001 4.001A2 2 0 0 1 7 2z' fill-rule='evenodd'/%3E%3C/svg%3E")no-repeat 10px,linear-gradient(180deg,#f7f7f7,#fff);
+    border: 1px solid #45688e;
+    box-shadow: 0 1px 0 #7d91b3, inset 0 1px 4px silver;
 }
