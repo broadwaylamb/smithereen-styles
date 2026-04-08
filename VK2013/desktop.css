@@ -423,8 +423,8 @@ h2, h4 {
 }
 
 .header a.nav {
-	color: #fff;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+	color: #e8eff7;
+	text-shadow: 0 1px 0 #4e7097;
 }
 
 .header a.nav.back {
@@ -432,11 +432,12 @@ h2, h4 {
 }
 
 .header a.nav:hover, .header a.nav:visited:hover {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: rgba(0, 31, 64, .17);
+	color: #fff;
 }
 
 #qsearchField {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='11' height='11' xmlns='http://www.w3.org/2000/svg' fill='%23bcc5d1' stroke-linejoin='round'%3E%3Cpath d='M3.554 6.032A4.001 4.001 0 0 1 7 0c2.208 0 4 1.792 4 4a4.001 4.001 0 0 1-6.032 3.446L1.5 10.914.086 9.5l3.468-3.468zM7 2a2 2 0 1 1-.001 4.001A2 2 0 0 1 7 2z' fill-rule='evenodd'/%3E%3C/svg%3E") no-repeat 6px 5px, linear-gradient(180deg, #efefef 0, #fff);
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='11' height='11' xmlns='http://www.w3.org/2000/svg' fill='%23bcc5d1' stroke-linejoin='round'%3E%3Cpath d='M3.554 6.032A4.001 4.001 0 0 1 7 0c2.208 0 4 1.792 4 4a4.001 4.001 0 0 1-6.032 3.446L1.5 10.914.086 9.5l3.468-3.468zM7 2a2 2 0 1 1-.001 4.001A2 2 0 0 1 7 2z' fill-rule='evenodd'/%3E%3C/svg%3E") no-repeat 6px 5px, linear-gradient(180deg, #efefef 0%, #fff 100%);
 	border: 1px solid #45688e;
 	box-shadow: 0 1px 0 #7d91b3, inset 0 1px 4px silver;
 }
@@ -459,14 +460,13 @@ h2, h4 {
 }
 
 .headerBG {
-	background-color: #6381a5;
-	background: linear-gradient(180deg, #557497, #6381a5);
-	border: 1px solid #45688e;
-	border-top: none;
+	background-color: #617b9d;
+	background: linear-gradient(180deg, #536c8e, #617b9d);
+	border: none;
 }
 
 .headerBG .shadow {
-	border-bottom: 1px solid #7d91b3;
+	border-bottom: none;
 }
 
 .popupPage .headerBG {
@@ -577,7 +577,7 @@ h2, h4 {
 }
 
 .pageContent {
-	box-shadow: 0 0 0 1px #f1f1f1, 0 0 0 2px #f3f3f3;
+	box-shadow: 0 0 0 1px #d9e0e7, 0 0 0 2px #f3f3f3;
 }
 
 .wallPostForm {
@@ -809,7 +809,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .boxTitleBar {
-	background: #6381a5;
+	background: #617b9d;
 	border: 1px solid #45688e;
 	box-shadow: inset 0 1px 0 #7d91b3;
 	color: #fff;
@@ -1183,7 +1183,7 @@ label.pretendLink {
 }
 
 .calendarHeader {
-	background: #6381a5;
+	background: #617b9d;
 	border: solid #45688e;
 	border-width: 1px 0;
 	color: #fff;
@@ -1327,7 +1327,7 @@ label.pretendLink {
 }
 
 .withRightColumnFilters .filters .filterItem.selected {
-	background: #6381a5;
+	background: #617b9d;
 	border: 1px solid #45688e;
 	color: #fff;
 }
