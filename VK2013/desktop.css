@@ -345,8 +345,8 @@ ul.actualList {
 	background-size: var(--ava-width) var(--ava-height);
 }
 
-div.audio td {
-	border: 0;
+blockquote {
+	border-left: 2px solid #c3cbd4;
 }
 
 .audio .titleWrap b {
@@ -392,11 +392,11 @@ div.audio td {
 }
 
 .audio .play {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' fill='%236782a2'%3E%3Crect width='16' height='16' rx='1.92'/%3E%3Cpath fill='%23fff' d='M6 4.64v6.72a.72.72 0 0 0 1.171.518l3.613-3.398a.72.72 0 0 0 0-.96L7.217 4.122A.72.72 0 0 0 6 4.64'/%3E%3C/svg%3E") no-repeat 0 0;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' fill='%23FFF'%3E%3Crect fill='%236782a2' width='16' height='16' rx='1.92'/%3E%3Cpath d='M6 4.64v6.72a.72.72 0 0 0 1.171.518l3.613-3.398a.72.72 0 0 0 0-.96L7.217 4.122A.72.72 0 0 0 6 4.64'/%3E%3C/svg%3E") no-repeat 0 0;
 }
 
 .audio .play.playing {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' fill='%236782a2'%3E%3Crect width='16' height='16' rx='1.92'/%3E%3Crect x='4' y='4' width='3.04' height='8' fill='%23fff' rx='.512'/%3E%3Crect x='8.96' y='4' width='3.04' height='8' fill='%23fff' rx='.512'/%3E%3C/svg%3E") no-repeat 0 0;
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' fill='%23FFF'%3E%3Crect fill='%236782a2' width='16' height='16' rx='1.92'/%3E%3Crect x='4' y='4' width='3.04' height='8' rx='.512'/%3E%3Crect x='8.96' y='4' width='3.04' height='8' rx='.512'/%3E%3C/svg%3E") no-repeat 0 0;
 }
 
 @media (hover: none) {
@@ -924,7 +924,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .popover .popoverHeader {
-	background: #5c7800;
+	background: #5e718d;
 	border: 1px solid #45688e;
 	border-bottom: none;
 	color: #fff;
@@ -955,7 +955,7 @@ input[type=time]::-webkit-calendar-picker-indicator {
 }
 
 .popover.hasHeader.belowAnchor .popoverArrow {
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7'%3E%3Cpath fill='%235c7800' d='M11 7 5.5 1 0 7h11z'/%3E%3Cpath fill='%2345688E' d='M.27 7 5.5 1.77 10.73 7H11V5.86L5.5.36 0 5.86V7h.27z'/%3E%3C/svg%3E");
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7'%3E%3Cpath fill='%235e718d' d='M11 7 5.5 1 0 7h11z'/%3E%3Cpath fill='%2345688E' d='M.27 7 5.5 1.77 10.73 7H11V5.86L5.5.36 0 5.86V7h.27z'/%3E%3C/svg%3E");
 }
 
 .popover.aboveAnchor > .popoverArrow {
@@ -1693,11 +1693,13 @@ label.largeAccented {
 	border-top: 1px solid #f1f1f1;
 }
 
-.avatarCropImgWrap .rotateButtons a {
+.avatarCropImgWrap .rotateButtons button {
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='40' height='20' xmlns='http://www.w3.org/2000/svg' fill='%23fff'%3E%3Cpath fill='none' d='M0 0h40v20H0z'/%3E%3Cpath d='M14 12V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h4l2 2H7c-1.656 0-3-1.344-3-3V7c0-1.656 1.344-3 3-3h6c1.656 0 3 1.344 3 3v5h2v.5L15.5 15h-1L12 12.5V12h2zM26 12V7a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-4l-2 2h6c1.656 0 3-1.344 3-3V7c0-1.656-1.344-3-3-3h-6c-1.656 0-3 1.344-3 3v5h-2v.5l2.5 2.5h1l2.5-2.5V12h-2z'/%3E%3C/svg%3E");
+	border: none;
+	box-shadow: none;
 }
 
-.avatarCropImgWrap .rotateButtons a.rotateCCW {
+.avatarCropImgWrap .rotateButtons button.rotateCCW {
 	background-position: -20px 0;
 }
 
@@ -2071,6 +2073,23 @@ ol.largeNumbers .number {
 	#oauthPromptPermissions .permissionIcon {
 		background-image: url(/res/oauth_icons_3x.png);
 	}
+}
+
+#inlinePlayer {
+	background-color: #d9e0e8;
+	color: #66819e;
+}
+
+#inlinePlayer:hover {
+	color: #567392;
+}
+
+#inlinePlayerPlayButton {
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' fill='%23567392'%3E%3Cpath d='M6 4.64v6.72a.72.72 0 0 0 1.171.518l3.613-3.398a.72.72 0 0 0 0-.96L7.217 4.122A.72.72 0 0 0 6 4.64'/%3E%3C/svg%3E") no-repeat -4px -4px / 24px 24px;
+}
+
+#inlinePlayer.playing #inlinePlayerPlayButton {
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='16' xmlns='http://www.w3.org/2000/svg' fill='%23567392'%3E%3Crect x='4' y='4' width='3.04' height='8' rx='.512'/%3E%3Crect x='8.96' y='4' width='3.04' height='8' rx='.512'/%3E%3C/svg%3E");
 }
 
 /* blocks */
