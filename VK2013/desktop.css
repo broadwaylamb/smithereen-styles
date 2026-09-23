@@ -660,12 +660,11 @@ h2, h4 {
 	color: #777;
 }
 
-.commentsPreviewWrap .loadPrev {
+.commentsPreviewWrap .loadPrev, .loadNewComments {
 	background-color: #e9edf1;
-	color: #6a7989;
 }
 
-.commentsPreviewWrap .prevLoader {
+.commentsPreviewWrap .prevLoader, .newCommentsLoader {
 	background-color: #e9edf1;
 }
 
@@ -2077,11 +2076,13 @@ ol.largeNumbers .number {
 
 #inlinePlayer {
 	background-color: #d9e0e8;
-	color: #66819e;
+	color: #567392;
 }
 
-#inlinePlayer:hover {
-	color: #567392;
+@media (max-width: 1100px) {
+	#inlinePlayer {
+		/* !important is needed so that the position is correct when a layer is active, see LayerManager#lockPageScroll */
+	}
 }
 
 #inlinePlayerPlayButton {
