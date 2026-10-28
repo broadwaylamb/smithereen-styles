@@ -461,7 +461,7 @@ h2, h4 {
 	color: #000;
 }
 
-.qsearchResult:hover {
+.qsearchResult.selected, .qsearchResult:hover {
 	background: #dee5eb;
 }
 
@@ -1780,7 +1780,7 @@ label.largeAccented {
 	background: #fff;
 }
 
-.pvTagFriendListPopup .list > a:hover {
+.pvTagFriendListPopup .list > a.selected, .pvTagFriendListPopup .list > a:hover {
 	background: #dee5eb;
 }
 
