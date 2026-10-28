@@ -399,6 +399,10 @@ blockquote {
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24' fill='%23FFF'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z'/%3E%3C/svg%3E");
 }
 
+.header .actionButton.inlineLoader {
+	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='8' fill='%23FFF'%3E%3Cpath d='M2 2h8v4H2z'%3E%3Canimate attributeName='opacity' values='1;.33;.33' dur='0.7s' repeatCount='indefinite' keyTimes='0;0.285;1'/%3E%3C/path%3E%3Cpath d='M12 2h8v4h-8z'%3E%3Canimate attributeName='opacity' values='0;0;1;.33;.33' dur='0.7s' repeatCount='indefinite' keyTimes='0;.142;.143;.428;1'/%3E%3C/path%3E%3Cpath d='M22 2h8v4h-8z'%3E%3Canimate attributeName='opacity' values='0;0;1;.33;.33' dur='0.7s' repeatCount='indefinite' keyTimes='0;.284;.285;.571;1'/%3E%3C/path%3E%3C/svg%3E") no-repeat 50%;
+}
+
 h2, h3 {
 	border-bottom: 1px solid #dae1e8;
 }
